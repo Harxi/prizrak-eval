@@ -1,0 +1,5 @@
+splitsymbol = ""; // Символ(ы) через, которое будет делиться текст
+variants = "".split(splitsymbol); // Варианты, разделять через специальный символ
+if (context.message.cleanContent.includes("Harxi")) {
+variants[Math.floor(Math.random() * ((variants.length - 1) - 0 + (variants.length - 1)) + 0)] } 
+else{"Ошибка лицензии, возьмите код [от сюда]()"}
