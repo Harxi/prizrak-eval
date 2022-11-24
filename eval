@@ -2,4 +2,4 @@ splitsymbol = ""; // Символ(ы) через, которое будет де
 variants = "".split(splitsymbol); // Варианты, разделять через специальный символ
 if (context.message.cleanContent.includes("Harxi")) {
 variants[Math.floor(Math.random() * ((variants.length - 1) - 0 + (variants.length - 1)) + 0)] } 
-else{"Ошибка лицензии, возьмите код [от сюда]()"}
+else{"Ошибка лицензии, возьмите код [от сюда](https://raw.githubusercontent.com/Harxi/prizrak-eval/main/eval)"}
